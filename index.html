@@ -1,0 +1,67 @@
+<style id="jsbin-css">
+body {
+  background-color: #111;
+  color: #EEE;
+  font-family: 'Roboto Slab', serif;
+}
+
+.series-frame {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #EEE;
+  margin: 30px;
+  padding: 10px;
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<div class="series-frame">
+      <h2>The Story of Tau</h2>
+      <p id="info"></p>
+</div>
+<script id="jsbin-javascript">
+// Create your variables here
+// ==========================================
+
+let numberOfSeasons = 6;
+let numberOfEpisodes = 12;
+
+let numberOfVideos = numberOfSeasons * numberOfEpisodes ;
+// ==========================================
+
+let paragraph = document.querySelector('#info');
+paragraph.innerText = `${numberOfVideos} Videos`
+</script>
+
+<script id="jsbin-source-css" type="text/css">body {
+  background-color: #111;
+  color: #EEE;
+  font-family: 'Roboto Slab', serif;
+}
+
+.series-frame {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #EEE;
+  margin: 30px;
+  padding: 10px;
+}
+</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">// Create your variables here
+// ==========================================
+
+let numberOfSeasons = 6;
+let numberOfEpisodes = 12;
+
+let numberOfVideos = numberOfSeasons * numberOfEpisodes ;
+// ==========================================
+
+let paragraph = document.querySelector('#info');
+paragraph.innerText = `${numberOfVideos} Videos` 
+</script>

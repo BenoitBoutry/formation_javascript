@@ -1,4 +1,4 @@
-// Create variables here
+// Test formatioçn javascript
 // =========================================
 let numberOfSeasons = 6;
 let numberOfEpisodes = 12;
